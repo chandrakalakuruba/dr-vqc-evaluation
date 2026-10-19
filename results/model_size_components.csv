@@ -1,0 +1,8 @@
+,VQC (hybrid),no-VQC (skip control),classical-only,CNN-only multi-scale,CNN-only single-scale
+backbone (EfficientNet-B2),7202562,7202562,7202562,7202562,7202562
+projection(s) + Transformer + pooling,3293185,3293185,3293185,133376,90368
+classical head,41477,41477,41477,41477,41477
+"quantum branch, classical part",140552,140552,0,0,0
+VQC (trainable rotations),72,0,0,0,0
+fusion head + quantum head + alpha,69579,69579,0,0,0
+TOTAL,10747427,10747355,10537224,7377415,7334407

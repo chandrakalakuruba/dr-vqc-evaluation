@@ -1,0 +1,17 @@
+# model checkpoints and predictions (archived on Zenodo instead)
+*.pth
+*.pt
+*.npz
+
+# datasets (not redistributed)
+data/
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.tif
+
+# notebook and Python artefacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

@@ -1,0 +1,37 @@
+dataset,comparison,metric,diff,ci95,includes_zero
+APTOS test,VQC - classical-only,acc,-0.009,"[-0.025, 0.009]",True
+APTOS test,VQC - classical-only,qwk,-0.012,"[-0.031, 0.004]",True
+APTOS test,VQC - classical-only,ref_auc,-0.002,"[-0.014, 0.011]",True
+APTOS test,no-VQC - classical-only,acc,-0.012,"[-0.031, 0.007]",True
+APTOS test,no-VQC - classical-only,qwk,-0.006,"[-0.025, 0.012]",True
+APTOS test,no-VQC - classical-only,ref_auc,-0.005,"[-0.012, 0.002]",True
+APTOS test,cnn_ms - classical-only,acc,-0.002,"[-0.022, 0.018]",True
+APTOS test,cnn_ms - classical-only,qwk,-0.027,"[-0.053, -0.007]",False
+APTOS test,cnn_ms - classical-only,ref_auc,-0.0,"[-0.009, 0.009]",True
+APTOS test,cnn_single - classical-only,acc,0.002,"[-0.018, 0.024]",True
+APTOS test,cnn_single - classical-only,qwk,-0.022,"[-0.043, 0.001]",True
+APTOS test,cnn_single - classical-only,ref_auc,0.002,"[-0.007, 0.012]",True
+IDRiD,VQC - classical-only,acc,-0.001,"[-0.024, 0.024]",True
+IDRiD,VQC - classical-only,qwk,-0.019,"[-0.047, 0.009]",True
+IDRiD,VQC - classical-only,ref_auc,-0.006,"[-0.018, 0.006]",True
+IDRiD,no-VQC - classical-only,acc,-0.014,"[-0.037, 0.008]",True
+IDRiD,no-VQC - classical-only,qwk,-0.05,"[-0.081, -0.017]",False
+IDRiD,no-VQC - classical-only,ref_auc,-0.009,"[-0.018, 0.000]",True
+IDRiD,cnn_ms - classical-only,acc,-0.031,"[-0.055, -0.007]",False
+IDRiD,cnn_ms - classical-only,qwk,-0.019,"[-0.050, 0.015]",True
+IDRiD,cnn_ms - classical-only,ref_auc,-0.007,"[-0.019, 0.004]",True
+IDRiD,cnn_single - classical-only,acc,-0.017,"[-0.042, 0.009]",True
+IDRiD,cnn_single - classical-only,qwk,0.002,"[-0.027, 0.035]",True
+IDRiD,cnn_single - classical-only,ref_auc,-0.005,"[-0.018, 0.008]",True
+DDR dedup,VQC - classical-only,acc,0.003,"[-0.001, 0.006]",True
+DDR dedup,VQC - classical-only,qwk,-0.026,"[-0.033, -0.020]",False
+DDR dedup,VQC - classical-only,ref_auc,-0.013,"[-0.017, -0.008]",False
+DDR dedup,no-VQC - classical-only,acc,0.011,"[0.008, 0.014]",False
+DDR dedup,no-VQC - classical-only,qwk,-0.02,"[-0.026, -0.013]",False
+DDR dedup,no-VQC - classical-only,ref_auc,0.008,"[0.004, 0.012]",False
+DDR dedup,cnn_ms - classical-only,acc,-0.004,"[-0.009, -0.001]",False
+DDR dedup,cnn_ms - classical-only,qwk,-0.05,"[-0.056, -0.043]",False
+DDR dedup,cnn_ms - classical-only,ref_auc,0.054,"[0.048, 0.060]",False
+DDR dedup,cnn_single - classical-only,acc,-0.008,"[-0.012, -0.004]",False
+DDR dedup,cnn_single - classical-only,qwk,-0.059,"[-0.066, -0.052]",False
+DDR dedup,cnn_single - classical-only,ref_auc,0.044,"[0.038, 0.049]",False
